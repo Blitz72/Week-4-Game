@@ -99,7 +99,9 @@ $(document).ready(function(){
 
 	$('#attack').click(function(){
 		if (characters[charId]["hp"] != 0 || winCounter == 3){
-			currentAttack += characters[charId]["attack"];
+			if (defenderSelected == true){
+				currentAttack += characters[charId]["attack"];
+			}
 			console.log(currentAttack);
 			currentDefender = $('.current-defender').attr('id');
 			// console.log(currentDefender);
@@ -163,4 +165,3 @@ $(document).ready(function(){
 		}
 	});
 });
-
