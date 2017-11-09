@@ -1,0 +1,307 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"isHungry"
+			],
+			[
+				"thi",
+				"thirdFunction"
+			],
+			[
+				"dr",
+				"driveAroundWorld"
+			],
+			[
+				"get",
+				"getTuneUp"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"button4",
+				"button4IsClicked"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Christina/Desktop/code/Week-4-Game/assets/css/reset.css",
+		"/C/Users/Christina/Downloads/scope-quiz-unsolved.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/04-jquery/01-Activities/18-ThisExample/Unsolved/this-unsolved.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/04-jquery/01-Activities/19-Cobweb/Unsolved/cobweb-starter.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/04-jquery/01-Activities/20-jQueryCalculator/Unsolved/jquery-calculator.html",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/assets/css/style.css",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/index.html",
+		"/C/Users/Christina/Desktop/code/Hangman-Game/assets/css/fonts/fonts.css",
+		"/C/Users/Christina/Desktop/code/Hangman-Game/hangman.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/02-Homework/Instructions/hangman-game-demo.mov",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/02-Homework/Instructions/homework-instructions.md",
+		"/C/Users/Christina/Desktop/PREWORK_DTB/Module-10/index.html",
+		"/C/Users/Christina/Desktop/hangmanJs.js",
+		"/C/Users/Christina/Desktop/Hangman.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/23-RPS-Coded/Solved/rps-7.html",
+		"/C/Users/Christina/Desktop/ClassActivity10_24_2.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/12-ArraysActivity/Solved/arrays-activity.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/12-ArraysActivity/Unsolved/arrays-activity.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/01-CodeDissection/js-dissect.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/11-ArraysDemo/arrays-demo.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/02-BasicVariablesDemo/basic-variables-demo.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/03-PizzaVariables/Unsolved/pizza-variables.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/04-ConsoleLogDemo/console-demo-instructor.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/05-PizzaConsole/Unsolved/pizza-variables-2.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/06-PromptDemo/prompt-demo.html",
+		"/C/Users/Christina/Desktop/ClassActivity10_24.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/10-ConditionalActivity2/conditional-demo-2.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/07-PromptSushi/Unsolved/prompt-sushi.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/09-ConditionalActivity/Solved/conditional-activity.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/08-ConditionalDemo/conditional-demo.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/14-JSDissect/Unsolved/js-dissect-unsolved.html",
+		"/C/Users/Christina/Desktop/ClassActivity10_28_4.html",
+		"/C/Users/Christina/Desktop/ClassActivity10_28_3.html",
+		"/C/Users/Christina/Desktop/Loop_TV.html",
+		"/C/Users/Christina/Desktop/ClassActivity10_28.html",
+		"/C/Users/Christina/Desktop/ClassActivity10_28_2.html",
+		"/C/Users/Christina/Desktop/Untitled.html",
+		"/C/Users/Christina/Desktop/code/Responsive-Portfolio/assets/css/style.css",
+		"/C/Users/Christina/Desktop/code/Responsive-Portfolio/index.html",
+		"/C/Users/Christina/Desktop/code/Responsive-Portfolio/portfolio.html",
+		"/C/Users/Christina/Desktop/code/Responsive-Portfolio/contact.html",
+		"/C/Users/Christina/Desktop/code/Bootstrap-Portfolio/index.html",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/portfolio.html",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/contact.html",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/assets/css/style_v1.css",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/portfolio_v1.html",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/contact_v1.html",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/index_v1.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/02-css-bootstrap/01-Activities/09-Pseudoclass/Solved/buttonstyle.css",
+		"/C/Users/Christina/Desktop/PREWORK_DTB/Module-8/The Who Fanpage/fanpage.html",
+		"/C/Users/Christina/Desktop/code/10-09-2017-Cleveland-Class-Repository-FSF/01-Class-Content/02-css-bootstrap/01-Activities/09-Pseudoclass/Solved/Button.html",
+		"/C/Users/Christina/Desktop/CWRU/Broken_and_Working_Code/WorkingCode/GrumpyCat.html",
+		"/C/Users/Christina/Desktop/code/ClassActivity_bootstrap.html",
+		"/C/Users/Christina/Desktop/code/Workspaces/bootcamp-project-2/index.html",
+		"/C/Users/Christina/Desktop/code/Workspaces/Blitz72.github.io/index.html",
+		"/C/Users/Christina/Desktop/Broken_and_Working_Code/WorkingCode/GrumpyCat.html",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/assets/images/DB_favicon.png",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/assets/images/if_github-square-gloss-social-media_765041.png",
+		"/C/Users/Christina/Desktop/Unsolved/Unsolved/RelativePaths_3/assets/style/style.css",
+		"/C/Users/Christina/Desktop/Unsolved/Unsolved/RelativePaths_3/html-bio.html",
+		"/C/Users/Christina/Desktop/code/Basic-Portfolio/assets/css/reset.css",
+		"/C/Users/Christina/Desktop/Broken_and_Working_Code/WorkingCode/logic.js",
+		"/C/Users/Christina/Desktop/Broken_and_Working_Code/WorkingCode/style.css",
+		"/C/Users/Christina/Desktop/ClassActivity10_16.html",
+		"/C/Users/Christina/Desktop/CSS positioning activity.html",
+		"/C/Users/Christina/Desktop/10-09-2017-Cleveland-Class-Repository/10-09-2017-Cleveland-Class-Repository-FSF-master-19e5622a4cd58f8b9c176eb834290c96c4b73206/01-Class-Content/01-html-git-css/01-Activities/10-CSS_PositionedLayout/main.html",
+		"/C/Users/Christina/Desktop/10-09-2017-Cleveland-Class-Repository/10-09-2017-Cleveland-Class-Repository-FSF-master-19e5622a4cd58f8b9c176eb834290c96c4b73206/01-Class-Content/01-html-git-css/01-Activities/10-CSS_PositionedLayout/reset.css",
+		"/C/Users/Christina/Desktop/10-09-2017-Cleveland-Class-Repository/10-09-2017-Cleveland-Class-Repository-FSF-master-19e5622a4cd58f8b9c176eb834290c96c4b73206/01-Class-Content/01-html-git-css/01-Activities/10-CSS_PositionedLayout/absolute.css",
+		"/C/Users/Christina/Desktop/10-09-2017-Cleveland-Class-Repository/10-09-2017-Cleveland-Class-Repository-FSF-master-19e5622a4cd58f8b9c176eb834290c96c4b73206/01-Class-Content/01-html-git-css/01-Activities/10-CSS_PositionedLayout/relative.css",
+		"/C/Users/Christina/Desktop/10-09-2017-Cleveland-Class-Repository/10-09-2017-Cleveland-Class-Repository-FSF-master-4d5f450aa4afeaafecf59800f1b76623640cc421/01-Class-Content/01-html-git-css/01-Activities/09-FloatLayout-Activity/Unsolved/floats.html",
+		"/C/Users/Christina/Desktop/10-09-2017-Cleveland-Class-Repository/10-09-2017-Cleveland-Class-Repository-FSF-master-4d5f450aa4afeaafecf59800f1b76623640cc421/01-Class-Content/01-html-git-css/01-Activities/09-FloatLayout-Activity/Unsolved/floats.css",
+		"/C/Users/Christina/Desktop/style.css",
+		"/C/Users/Christina/Desktop/ClassSctivity10_16.html",
+		"/C/Users/Christina/Desktop/Unsolved/Unsolved/RelativePaths_4/HTML/ClassActivity10-16.html",
+		"/C/Users/Christina/Desktop/Unsolved/Unsolved/RelativePaths_4/HTML/html-bio.html",
+		"/C/Users/Christina/Desktop/Unsolved/Unsolved/RelativePaths_4/style.css",
+		"/C/Users/Christina/Desktop/Unsolved/Unsolved/RelativePaths_2/html-bio.html",
+		"/C/Users/Christina/Desktop/Unsolved/Unsolved/RelativePaths_1/style.css",
+		"/C/Users/Christina/Desktop/Unsolved/Unsolved/RelativePaths_1/html-bio.html",
+		"/C/Users/Christina/Desktop/week1-day2-html-css/css/style.css",
+		"/C/Users/Christina/Desktop/week1-day2-html-css/html-bio-with-css.html",
+		"/C/Users/Christina/Desktop/ClassActivity10_12.html",
+		"/C/Users/Christina/CWRUCodingBootCampDemo/ClassActivity10-12-17/htmlfile.html",
+		"/C/Users/Christina/CWRUCodingBootCampDemo/NewHTML_file.html",
+		"/C/Users/Christina/Desktop/newFile.html",
+		"/C/Users/Christina/Desktop/myFirstHTML.html",
+		"/C/Users/Christina/Desktop/newFile",
+		"/C/Users/Christina/Desktop/MyFirstHTML.html",
+		"/C/Users/Christina/Desktop/PREWORK_DTB/Module-10/javascript.js",
+		"/C/Users/Christina/Desktop/PREWORK_DTB/Module-9/style.css",
+		"/C/Users/Christina/Desktop/PREWORK_DTB/Module-10/logic.js",
+		"/C/Users/Christina/Desktop/index.html",
+		"/C/Users/Christina/Desktop/PREWORK_DTB/Module-9/index.html",
+		"/C/Users/Christina/Desktop/Chocolate.html",
+		"/C/Users/Christina/Desktop/My_First_Website.html",
+		"/C/Users/Christina/Desktop/PREWORK_DTB/Module-8/The Who Fanpage/Who_Favicon.png",
+		"/C/Users/Christina/Desktop/fanpage.html",
+		"/C/Users/Christina/Desktop/Broken_and_Working_Code/BrokenCode/BooTheDog.html",
+		"/C/Users/Christina/Desktop/Broken_and_Working_Code/BrokenCode/logic.js",
+		"/C/Users/Christina/Desktop/Broken_and_Working_Code/BrokenCode/style.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"21",
+			"\t<img id=\"LinkedIn_pic\" src=\"assets\\images\\if_LinkedIn_556122.png\">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

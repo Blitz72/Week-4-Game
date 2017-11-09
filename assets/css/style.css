@@ -1,0 +1,111 @@
+body {
+	background: url("https://lc-www-live-s.legocdn.com/r/www/r/catalogs/-/media/catalogs/activities/star%20wars/2016/backgrounds/preview_75136_1440x838.jpg?l.r2=-326277714");
+");
+
+}
+
+.sw-font {
+	font-family: STARWARS;
+}
+
+.spaced-out {
+	letter-spacing: 2px;
+}
+
+.spaced-out-more {
+	letter-spacing: 4px;
+}
+
+.header {
+	float: right;
+	margin-right: 20px;
+}
+
+h1 {
+	font-size: 60px;
+	/*float: right;*/
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.your-char {
+	clear: both;
+	margin: 5px 20px 0px 20px;
+}
+
+.character-container {
+	float: left;
+	margin: 5px 20px 0px 20px;
+}
+
+.your-character-container {
+	margin: 0px 20px 0px 20px;
+}
+
+.char-name {
+	font-size: 15px;
+}
+
+.card-size {
+	float: left;
+	width: 150px;
+	height: 110px;
+	padding: 3px;
+	margin: 0px 3px 5px 3px;
+	text-align: center;
+	background: #ddd;
+	border-style: solid;
+	border-width: 3px;
+	border-color: green;
+}
+
+.pic-size {
+	width: 105px;
+	height: auto;
+}
+
+.enemies {
+	clear: both;
+	margin: 10px 20px 0px 20px;
+}
+
+.enemy-container {
+	margin: 0px 20px 0px 0px;
+}
+
+.fight {
+	clear: both;
+	margin: 10px 20px 0px 20px;
+}
+
+.defender {
+	clear: both;
+	margin: 10px 20px 0px 20px;
+}
+
+.defender-container {
+	float: left;
+	margin: 10px 20px 0px 20px;
+}
+
+button {
+	font-size: 20px;
+	padding: 9px 5px 5px 6px;
+	background: #f77;
+	color: #633;
+	margin: 10px 20px 0px 40px;
+}
+
+#message {
+	clear: both;
+	margin: 0px 0px 0px 20px;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+#reset-button {
+	background: #ddd;
+	color: black;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars RPG | by David Bauer</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/fonts/fonts.css">
+	<link rel="icon" type="image/png" href="assets/images/favicon.ico"/>
+	
+
+</head>
+<body>
+	<div class="header">
+		<h1 class="spaced-out-more sw-font">Star Wars RPG</h1>
+	</div>
+	
+	<div class="character-container">
+		<div id="obi" class="char card-size">
+			<div class="char-name sw-font">Obi Wan Kenobi</div>
+			<img class="pic-size" src="assets/images/obi-wan2.jpg" alt="Obi Wan Kenobi">
+			<div class="obi-hp sw-font spaced-out"></div>
+		</div>
+		<div id="luke" class="char card-size">
+			<div class="char-name sw-font">Luke Skywalker</div>
+			<img class="pic-size" src="assets/images/luke-skywalker2.jpg" alt="Luke Skywalker">
+			<div class="luke-hp sw-font spaced-out"></div>
+		</div>
+		<div id="siddious" class="char card-size">
+			<div class="char-name sw-font">Darth Siddious</div>
+			<img class="pic-size" src="assets/images/darth-siddious2.jpg" alt="Darth Siddious">
+			<div class="siddious-hp sw-font spaced-out"></div>
+		</div>
+		<div id="vader" class="char card-size">
+		<div class="char-name sw-font">Darth Vader</div>
+			<img class="pic-size" src="assets/images/darth-vader2.jpg" alt="Darth Vader">
+			<div class="vader-hp sw-font spaced-out"></div>
+		</div>
+	</div>
+	<div class="your-char">
+		<h2 class="sw-font spaced-out">Your Character</h2>
+	</div>
+	<div class="your-character-container"></div>
+	<div class="enemies">
+		<h2 class="sw-font spaced-out">Enemies to Attack<h2>
+	</div>
+	<div class="enemy-container"></div>
+	<div class="fight">
+		<h2 class="sw-font spaced-out">Fight Section<h2>
+	</div>
+	<button id="attack" class="sw-font spaced-out">Attack</button>
+	<div class="defender">
+		<h2 class="sw-font spaced-out">Defender</h2>
+	</div>
+	<div class="defender-container"></div>
+	<div id="message" class="sw-font spaced-out"></div>
+	<div id="reset"></div>
+
+</body>
+</html>
