@@ -49,7 +49,7 @@ $(document).ready(function(){
 
 	function reset(){
 		$('#reset').append('<button id="reset-button" class="sw-font spaced-out">Reset</button>');
-		$('#message').text("Click on 'Reset' to play again!");
+		$('#reset-message').text("Click on 'Reset' to play again!");
 		$('#reset-button').click(function(){
 			location.reload();
 		});

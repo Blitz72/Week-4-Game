@@ -109,3 +109,8 @@ button {
 	background: #ddd;
 	color: black;
 }
+
+#reset-message {
+	margin: 10px 0px 0px 20px;
+	font-size: 20px;
+}
