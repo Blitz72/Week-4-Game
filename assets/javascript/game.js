@@ -106,7 +106,16 @@ $(document).ready(function(){
 			currentDefender = $('.current-defender').attr('id');
 			// console.log(currentDefender);
 			characters[currentDefender]["hp"] -= currentAttack;
-			if (characters[currentDefender]["hp"] < 0) characters[currentDefender]["hp"] = 0;
+			if (characters[currentDefender]["hp"] < 0){
+				characters[currentDefender]["hp"] = 0;
+				var upperCaseName = capitalize(currentDefender);
+				message = "You defeated " + upperCaseName + "! ";
+				$('.defender-container').empty();
+				defenderSelected = false;
+				selectDefender();
+			} else {
+				characters[charId]["hp"] -= characters[currentDefender]["counter"];
+			}
 			var displayHP = characters[currentDefender]["hp"];
 			console.log(displayHP);
 			switch (currentDefender) {
@@ -123,7 +132,7 @@ $(document).ready(function(){
 				$('.vader-hp').text(displayHP);
 				break;
 			}
-			characters[charId]["hp"] -= characters[currentDefender]["counter"];
+			// characters[charId]["hp"] -= characters[currentDefender]["counter"];
 			if (characters[charId]["hp"] < 0) characters[charId]["hp"] = 0;
 			displayHP = characters[charId]["hp"];
 			console.log(characters[charId]["hp"]);
@@ -153,13 +162,13 @@ $(document).ready(function(){
 					$('#message').text("YOU WIN!!!");
 					$('.defender-container').empty();
 					reset();
-				} else {
-					var upperCaseName = capitalize(currentDefender);
-					message = "You defeated " + upperCaseName + "! ";
-					$('.defender-container').empty();
-					defenderSelected = false;
-					selectDefender();
-				}
+				 } //else {
+				// 	var upperCaseName = capitalize(currentDefender);
+				// 	message = "You defeated " + upperCaseName + "! ";
+				// 	$('.defender-container').empty();
+				// 	defenderSelected = false;
+				// 	selectDefender();
+				// }
 				console.log("winCounter = " + winCounter);
 			}
 		}
