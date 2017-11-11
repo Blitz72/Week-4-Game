@@ -152,6 +152,7 @@ $(document).ready(function(){
 				$('.vader-hp').text(displayHP);
 				break;
 			}
+			$('#message').text("You attacked " + capitalize(currentDefender) + " for " + currentAttack + "! " + capitalize(currentDefender) + " counter-attacked you for " + characters[currentDefender].counter + "!");
 			if (characters[charId]["hp"] <= 0 && characters[currentDefender]["hp"] <= 0) {
 				$('#message').text("You both lose!");
 				reset();
