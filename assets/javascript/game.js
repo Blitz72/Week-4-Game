@@ -86,6 +86,8 @@ $(document).ready(function(){
 					if (!defenderSelected){
 						$(this).addClass('current-defender');
 						$('.defender-container').append($('.current-defender'));
+						$('.defender-container').children().css('background', '#000');
+						$('.defender-container').children().css('color', '#fff');
 					}
 					console.log(enemyId);
 					defenderSelected = true;
