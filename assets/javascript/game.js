@@ -106,7 +106,7 @@ $(document).ready(function(){
 			currentDefender = $('.current-defender').attr('id');
 			// console.log(currentDefender);
 			characters[currentDefender]["hp"] -= currentAttack;
-			if (characters[currentDefender]["hp"] < 0) characters[currentDefender]["hp"] = 0;
+			if (characters[currentDefender]["hp"] <= 0) characters[currentDefender]["hp"] = 0;
 			var displayHP = characters[currentDefender]["hp"];
 			console.log(displayHP);
 			switch (currentDefender) {
