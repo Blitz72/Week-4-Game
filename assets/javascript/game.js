@@ -118,7 +118,7 @@ $(document).ready(function(){
 			} else {
 				characters[charId]["hp"] -= characters[currentDefender]["counter"];
 			}
-			if (characters[currentDefender]["hp"] < 0) characters[currentDefender]["hp"] = 0;
+			if (characters[currentDefender]["hp"] <= 0) characters[currentDefender]["hp"] = 0;
 			var displayHP = characters[currentDefender]["hp"];
 			console.log(displayHP);
 			switch (currentDefender) {
@@ -136,7 +136,7 @@ $(document).ready(function(){
 				break;
 			}
 			// characters[charId]["hp"] -= characters[currentDefender]["counter"];
-			if (characters[charId]["hp"] < 0) characters[charId]["hp"] = 0;
+			if (characters[charId]["hp"] <= 0) characters[charId]["hp"] = 0;
 			displayHP = characters[charId]["hp"];
 			console.log(characters[charId]["hp"]);
 			switch (charId) {
